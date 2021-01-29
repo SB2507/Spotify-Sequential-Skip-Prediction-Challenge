@@ -6,7 +6,7 @@ lbm_model = pickle.load(open('llbm.pkl','rb'))
 def main():
     import streamlit as st
     html_temp = """
-    <div style="background-color:teal ;padding:10px">
+    <div style="background-color:#DCE1E3 ;padding:10px">
     <h2 style="color:white;text-align:center;"> Spotify Skip Prediction App </h2>
     </div>
     """
