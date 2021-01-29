@@ -5,7 +5,7 @@ import pickle
 app = Flask(__name__)
 model = pickle.load(open('regression.pkl', 'rb'),encoding="latin1")
 
-@app.route('/')
+@app.route('/home')
 def home():
     return render_template('index.html')
 
