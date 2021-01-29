@@ -87,7 +87,7 @@ This app predicts the **whether the song is skipped or not** !
              hubref,
              hubrel,
              speechiness,
-             oorganism,
+             organism,
              hubret,
              mechanism,
              session_length,
