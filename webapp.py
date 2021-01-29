@@ -119,7 +119,7 @@ This app predicts the **whether the song is skipped or not** !
 
     if st.button('Predict'):
 
-         st.success(classify(lbm_model.predict(inputs)))
+         st.success(Predict(lbm_model.predict(inputs)))
 
 def Predict(num):
     if num == 1:
