@@ -6,7 +6,7 @@ lbm_model = pickle.load(open('llbm.pkl','rb'))
 def main():
     import streamlit as st
     html_temp = """
-    <div style="background-color:teal ;padding:10px">
+    <div style="background-color:#DCE1E3 ;padding:10px">
     <h2 style="color:white;text-align:center;"> Spotify Skip Prediction App </h2>
     </div>
     """
@@ -87,7 +87,7 @@ This app predicts the **whether the song is skipped or not** !
              hubref,
              hubrel,
              speechiness,
-             oorganism,
+             organism,
              hubret,
              mechanism,
              session_length,
@@ -119,7 +119,7 @@ This app predicts the **whether the song is skipped or not** !
 
     if st.button('Predict'):
 
-         st.success(classify(lbm_model.predict(inputs)))
+         st.success(Predict(lbm_model.predict(inputs)))
 
 def Predict(num):
     if num == 1:
